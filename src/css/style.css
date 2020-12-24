@@ -1,10 +1,8 @@
-#navbar{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    float: right;
+.nav-wrapper{
+    background-color: #364463 !important;
 }
-.horizontal{
-    display: inline;
-    padding: 16px 16px;
+.nav-wrapper > a{
+    padding-left: 64x;
+    padding-right: 64px;
+    float:  right !important;
 }
