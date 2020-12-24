@@ -1,8 +1,12 @@
-.nav-wrapper{
-    background-color: #364463 !important;
+.navbar-custom{
+    background: #364463 !important;
 }
-.nav-wrapper > a{
-    padding-left: 64x;
-    padding-right: 64px;
-    float:  right !important;
+input[type=text]{
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus{
+    width: 100%;
 }
