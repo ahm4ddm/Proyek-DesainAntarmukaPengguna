@@ -1,6 +1,9 @@
 .color-custom{
     background: #364463 !important;
 }
+section {
+    padding-top: 90px;
+}
 input[type=text]{
     width: 130px;
     -webkit-transition: width 0.4s ease-in-out;
@@ -9,9 +12,4 @@ input[type=text]{
 
 input[type=text]:focus{
     width: 100%;
-}
-
-.hapusSpasi{
-    margin: 0 !important;
-    padding: 0 !important;
 }
