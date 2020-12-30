@@ -1,17 +1,109 @@
+@font-face {
+    font-family: LatoRegular;
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: LatoBold;
+    src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+
+html,
+body{
+width:100%;
+overflow-x:hidden;
+}
+
+body {
+    font-family: LatoRegular;
+}
+
+.aos-fix {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    font-family: LatoRegular;
+}
+
+.visible {
+    display: inline;
+}
+
+.invisible !important {
+    display: none;
+}
+
+.title-jumbotron{
+    color: white;font-family: LatoBold;font-size: 2.5em;
+}
+
+.bg-fit {
+    object-fit: cover;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+
+/* 
+input[type=text]{
+    background-color: #364463;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 5px white;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+} */
+
 .color-custom{
     background: #364463 !important;
 }
-section {
-    padding-top: 90px;
+
+#jumbotron {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: left;
+    background: #364463;
 }
-input[type=text]{
+
+.text-profile {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.padding-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.fluid-padding {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.text-event {
+    text-align: left;
+}
+
+.card-img-top {
+
+}
+
+/* input[type=text]{
     width: 130px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
 input[type=text]:focus{
     width: 100%;
-}
+} */
 .colorText{
     color: white;
 }
@@ -21,4 +113,41 @@ input[type=text]:focus{
  }
  .scrolled-up{
     transform:translateY(0); transition: all 0.3s ease-in-out;
+ }
+
+@media (max-width: 576px) { 
+    #jumbotron {
+        padding-top: 100px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    .title-jumbotron{
+        font-size: 2em;
+    }
+
+    .text-profile {
+        padding-top: 0px;
+    }
+    
+    .fluid-padding {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .text-event {
+        text-align: center;
+    }
+
+    #profile {
+        text-align: center;
+    }
+ }
+
+@media (max-width: 768px) { 
+    
+}
+
+@media (max-width: 992px) { 
+
  }
