@@ -22,6 +22,10 @@ body {
     overflow-x: hidden;
 }
 
+#isi {
+    margin-right: -10px;
+}
+
 a {
     text-decoration: none;
 }
@@ -31,11 +35,14 @@ nav {
 }
 
 .visible {
-    display: inline;
+    visibility: visible;
+    margin-right: 0px;
+    transition: .5s;
 }
 
 .invisible !important {
-    display: none;
+    visibility: none;
+    transition: .5s;
 }
 
 .title-jumbotron{
@@ -74,7 +81,7 @@ input[type=text]{
 }
 
 .text-profile {
-    margin-top: 0px;
+    margin-top: 150px;
     text-align: center;
 }
 
@@ -127,6 +134,7 @@ input[type=text]:focus{
     }
 
     .text-profile {
+        margin-top: 0px;
         padding-top: 0px;
     }
     

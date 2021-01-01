@@ -44,10 +44,10 @@ function fun(){
     var nav = document.getElementById('nb');
     hasil.onclick = function(){
         txtField.setAttribute('class','visible');
-        conNav.setAttribute('class','invisible');
+        // conNav.setAttribute('class','invisible');
     };
     nav.onclick = function(){
         txtField.setAttribute('class','invisible');
-        conNav.setAttribute('class','visible');
+        // conNav.setAttribute('class','visible');
     };
 }
