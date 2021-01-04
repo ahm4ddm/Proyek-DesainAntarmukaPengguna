@@ -26,12 +26,12 @@ a{
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
   }
-  .anim:hover, .anim:focus, .anim:active {
+  /* .anim:hover, .anim:focus, .anim:active {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-  }
+  } */
 
   .judul {
     display: inline-block;
@@ -74,10 +74,10 @@ a{
     -webkit-transition-property: transform;
     transition-property: transform;
   }
-  .judulKotak:hover, .judulKotak:focus, .judulKotak:active {
+  /* .judulKotak:hover, .judulKotak:focus, .judulKotak:active {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-  }
+  } */
 
   .lain {
     display: inline-block;
@@ -177,6 +177,18 @@ input[type=text]{
     background: #364463;
 }
 
+.center-xs{
+    text-align: left;
+}
+
+.socmed {
+    text-align: left;
+}
+
+.followus {
+    text-align: right;
+}
+
 .text-profile {
     margin-top: 150px;
     text-align: center;
@@ -245,6 +257,18 @@ input[type=text]:focus{
     }
 
     #profile {
+        text-align: center;
+    }
+
+    .center-xs{
+        text-align: center;
+    }
+
+    .followus {
+        text-align: center;
+    }
+
+    .socmed {
         text-align: center;
     }
  }
